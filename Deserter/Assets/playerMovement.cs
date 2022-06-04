@@ -22,7 +22,7 @@ public class playerMovement : MonoBehaviour
     Vector3 velocity;
     bool isGrounded;
     bool isOnWater;
-    public stats statistics;
+    public Stats statistics;
     // Update is called once per frame
     void Update()
     {
