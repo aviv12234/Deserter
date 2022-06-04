@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class Stats : MonoBehaviour
 {
-    public int stamina = 7200;
+    public int stamina = 4800;
     int stamRunningReduction = 8;//4times walking reduct
     int stamWalkingReduction = 2;
     int stamStandingReduction = 1;//half time waking reduct
@@ -15,6 +15,10 @@ public class Stats : MonoBehaviour
     public playerMovement play;
     int cnt = 0;
     // Start is called before the first frame update
+    public void setWater(int waterRefill)
+    {
+        water = waterRefill;
+    }
     void Start()
     {
         

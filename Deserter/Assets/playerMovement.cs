@@ -15,14 +15,12 @@ public class playerMovement : MonoBehaviour
     public Transform groundCheck;
     public float groundDistance = 0.4f;
     public LayerMask groundMask;
-    public LayerMask oasisMask;
     public bool isRunning = false;
     public bool isWalking = false;
     public bool isStanding = true;
     Vector3 velocity;
     bool isGrounded;
-    bool isOnWater;
-    public Stats statistics;
+
     // Update is called once per frame
     void Update()
     {
@@ -71,12 +69,7 @@ public class playerMovement : MonoBehaviour
 
         if (isGrounded && velocity.y < 0)
         {
-            velocity.y = -2f;
-        }
-        isOnWater = Physics.CheckSphere(groundCheck.position, groundDistance, oasisMask);
-        if(isOnWater)
-        {
-            statistics.water = 600;//max water
+            velocity.y = 0;
         }
 
 
