@@ -10,7 +10,6 @@ public class Selected : MonoBehaviour
     public void PlayGame()
     {
         SceneManager.LoadScene("terrian");
-
     }
 
     public void QuitGame()
