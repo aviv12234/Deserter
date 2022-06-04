@@ -4,5 +4,20 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/MainMenu.unity
+    guid: e745545a119071b4485cf7b6e0b27bd4
+  - enabled: 1
+    path: Assets/Scenes/MosterMenu.unity
+    guid: e8cf64e392337f646b8f5468f6720463
+  - enabled: 1
+    path: Assets/Scenes/terrian.unity
+    guid: b8643369f5a6939459cba7f12022b201
+  - enabled: 1
+    path: Assets/Scenes/WaterMenu.unity
+    guid: 3d7dad74bbccd734e8b088c419537ad8
+  - enabled: 1
+    path: Assets/Scenes/StaminaMenu.unity
+    guid: ccf2aea7cad6f6243b2c145ac32f70e9
   m_configObjects: {}
