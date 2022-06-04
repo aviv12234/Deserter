@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
-public class StaminaBar : MonoBehaviour
+public class WaterBar : MonoBehaviour
 {
     public Stats stamStatistics;
     int cnt = 0;
@@ -26,16 +26,16 @@ public class StaminaBar : MonoBehaviour
 
     void Start()
     {
-        SetMaxStamina(stamStatistics.stamina);
+        SetMaxStamina(stamStatistics.water);
     }
 
     // Update is called once per frame
     void FixedUpdate()
     {
 
-        if(cnt%50==0)
+        if (cnt % 50 == 0)
         {
-            SetStamina(stamStatistics.stamina);
+            SetStamina(stamStatistics.water);
         }
         cnt++;
 
