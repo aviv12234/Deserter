@@ -16,7 +16,6 @@ public class waterRefillCheck : MonoBehaviour
     void Update()
     {
 
-    Debug.Log(trans.position.y.ToString("0.00"));
         if (trans.position.y<=5)//lowest height for player to not touch water
         {
            

@@ -4,13 +4,17 @@ using UnityEngine;
 
 public class playerDetection : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
+    void onCollisionEnter(Collision col)
     {
-        
+        Debug.Log("any collision detected");
+        if(col.gameObject.name=="player")
+        {
+            Debug.Log("player detected");
+
+        }
     }
 
-    // Update is called once per frame
+
     void Update()
     {
         

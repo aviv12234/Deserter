@@ -48,8 +48,6 @@ public class Stats : MonoBehaviour
            
         }
         cnt++;
-        Debug.Log(stamina.ToString("0.00"));
-        Debug.Log(water.ToString("0.00"));
 
 
     }
